@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.d-flex{
+    width: 20rem;
+    margin-top: 20px;
+    color: white;
+}
+article{
+    background-color: rgb(29, 26, 25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 10px;
+}
+.check label{
+    margin-left:5px;
+    font-size: 12px;
+
+}
+header img{
+    width:4rem;
+}
+.nav{
+    background-color: rgb(29, 26, 25);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    width: 100%;
+}
+.nav img{
+    width: 5rem;
+    margin: 10px;
+}
+header{
+    background-color: rgb(16, 13, 13);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(216, 2, 102, 0.833);
+    min-height: 10vh;
+    text-decoration: underline;
+}
+form label input{
+    margin: 5px;
+}
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px; 
+}
+.precio{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#navbarTogglerDemo01{
+    color: white !important;
+}
+.navbar-brand{
+    color: rgb(255, 255, 255) !important;
+    text-decoration: underline;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+.navbar-brand:hover{
+    background-color: aliceblue;
+    border-radius: 9px;
+    padding: 3px;
+    color: rgb(57, 55, 55) !important;
+    margin: 5px !important;
+}
+@media (min-width:700px) and (max-width:991px){
+    section{
+        flex-flow: wrap;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
+@media (min-width:992px) {
+    section{
+        flex-flow: wrap;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    article{
+        flex-flow: wrap;
+        justify-content: center;
+        justify-content: space-around;
+    }
+    .navbar-brand{
+        font-size: 24px !important;
+    }
+    form label{
+        font-size: 20px !important;
+    }   
+}
+footer img{
+    width:4rem;
+    border-radius: 30px;
+}
+.intagram{
+    width: 3.7rem;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+    padding: 20px;
+    background-color:rgb(29, 26, 25) ;
+}
+footer p{
+    font-size: 25px;
+    color: rgb(216, 2, 102);
+    text-decoration: overline;
+}
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main{
+    min-height: 80vh;
+    background-image: url(../assets/fondo-para-main.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.face{
+    width: 2.1rem;
+}
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.475);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    padding: 2
+    0px;
+    text-align: center;
+    width: 50%;
+}
+.p{
+    margin-top: 5px;
+    border-radius: 12px;
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid white;
+}
+.input{
+    height: 6rem;
+}
+.innput{
+    width: 9.9rem;
+}
+.contacto{
+    background-color: rgb(31, 27, 27);
+    border: 2px solid white;
+}
+@media (min-width:992px){
+    .form{
+        width: 31rem;
+    }
+}
+table tr, th, td {
+    border: 2px solid black;
+    background-color: rgba(15, 15, 15, 0.412);
+    color: white;
+}
+table thead{
+    background-color: black;
+    height: 3rem;
+    color: white;
+}
+.stats-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/fondo-para-main.jpg);
+    background-position: center;
+    background-size: cover;
+}
+header h1{
+    text-decoration: transparent;
+}
+
+
